@@ -1,0 +1,261 @@
+﻿* {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+@font-face {
+    font-family: 'MilleniaPersonalUse';
+    src: url('.../Bootstrap/Fonts/MilleniaPersonalUse-w1OB8.ttf');
+}
+/*********** LocalBazzar Css Start **************/
+.fa-envelope, .fa-phone, .fa-user {
+    padding-right: 2px;
+}
+.fa-facebook-f {
+    color: white;
+    width: 22px;
+    height: 22px;
+    padding: 3px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 100%;
+}
+.fa-instagram, .fa-linkedin-square {
+    color: white;
+    width: 23px;
+    height: 23px;
+    padding: 3px;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 100%;
+}
+/* Contactinfo css start */
+.contact_info {
+    width: 100%;
+    padding: 4px 0;
+    background-color: #f46c6c;
+}
+.cont-txt {
+    font-size: 12px;
+}
+.cont-txt:last-child {
+    padding-left: 10px;
+}
+.social_icons {
+    display: table;
+    width: 100%;
+    height: 100%;
+    text-align: right;
+}
+.login {
+    margin-right: 20px;
+}
+/*.logo {
+    width: 150px;
+    height: 80px;
+    background: url('../Images/Localbazzarlogo.png');
+    background-size: cover;
+    background-position: center;
+}*/
+/* Contactinfo css end */
+
+/* Header css start */
+header {
+    width: 100%;
+/*    background: #E6ECEE;*/
+    background: #EEF1F5;
+    padding: 8px 0;
+    border-bottom: 1px solid #ccc;
+}
+.searchItem {
+    display: table;
+    width: 100%;
+    height: 100%;
+    text-align: right;
+}
+.search_Box {
+    position: relative;
+    display: inline-flex;
+    height: 40px;
+    background: white;
+    padding-left: 4px;
+    border-radius: 40px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    right: 20px;
+}
+.search_Box > .searchInput {
+    /*display: none;*/
+    width: 0px;
+    height: 40px;
+    outline: none;
+    border: 0;
+    border-radius: 40px;
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.4s linear;
+}
+.search_Box > .searchInput::-webkit-input-placeholder {
+    font-size: 14px;
+    padding-left: 8px;
+}
+.search_Box > .searchIcon {
+    text-decoration: none;
+    color: black;
+    padding: 0 12px;
+}
+.search_Box > .searchIcon .fa-search {
+    font-size: 16px;
+}
+.search_Box:hover  .searchInput {
+    width: 240px;
+    padding: 3px 14px;
+}
+.cart {
+    font-size: 20px;
+}
+.Aboutus {
+    outline: none;
+    border: 0;
+    background: #f46c6c;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 40px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+.Aboutus > .fa-sort-down {
+    line-height: 1.4;
+}
+/* Header css end */
+
+/* Navigation css start */
+.navigation {
+    width: 100%;
+    background: #EEF1F5;
+}
+.nav_list {
+    margin-bottom: 5px;
+}
+.nav_list .nav-item {
+    text-decoration: none;
+    font-size: 14px;
+}
+.nav_list .list-item {
+    display: inline-block;
+    padding: 0 15px;
+    position: relative;
+}
+/*.nav_list .list-item .nav-item > img {
+    width: 60px;
+    height: 60px;
+    padding: 8px;
+    margin: 0 0px;
+}*/
+.nav_list .list-item .nav-item > p {
+    padding: 0;
+    text-align: center;
+    line-height: 1.0;
+    color: black;
+    font-family: 'MilleniaPersonalUse';
+    font-size: 15px;
+}
+.list-item:hover .dropdown_list{
+    display: block;
+}
+.dropdown_list {
+    display: none;
+    width: 230px;
+    background: white;
+    padding: 8px 0;
+    position: absolute;
+    top: 22px;
+    z-index: 10000;
+    box-shadow: 4px 0px 8px 0px rgba(0,0,0,0.2);
+}
+.dropdown_nav_list > .dd_list-item {
+    display: block;
+}
+.dropdown_nav_list > .dd_list-item > .dd_nav-item {
+    display: block;
+    color: black;
+    font-size: 16px;
+    padding: 10px 0;
+    text-decoration: none;
+}
+.dd_list-item:hover .sub_dropdown_list {
+    display: block;
+}
+.sub_dropdown_list {
+    display: none;
+    width: 210px;
+    background: white;
+    padding: 8px 0;
+    position: absolute;
+    top: 22px;
+    left: 100%;
+    z-index: 1;
+    box-shadow: 6px 0px 8px 0px rgba(0,0,0,0.2);
+}
+.Subdropdown_nav_list > .sdd_list-item {
+    display: block;
+}
+.Subdropdown_nav_list > .sdd_list-item > .sdd_nav-item {
+    display: block;
+    color: black;
+    font-size: 16px;
+    padding: 10px 0;
+    text-decoration: none;
+}
+.fa-caret-right {
+    display: inline-block !important;
+    float: right;
+    margin-right: 10px;
+}
+/* Navigation css End */
+
+/* Banner css start */
+.banner {
+    width: 100%;
+    margin-top: -15px;
+}
+/* Banner css end */
+
+/* Deliveryinfo css start */
+.deliveryInfo {
+    width: 100%;
+    background: #EEF1F5;
+}
+.service-Info {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    margin: auto;
+}
+.service-Info > .service-img {
+    height: 50px;
+}
+.service-Info h6 {
+    padding: 0px 8px;
+    margin: 0;
+}
+.service-Info p {
+    line-height: 1.3;
+    padding: 0px 8px;
+    margin-top: 0px;
+    font-size: 14px;
+}
+.border-div {
+    border-right: 1px solid #ccc;
+}
+.centerDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Deliveryinfo css end */
