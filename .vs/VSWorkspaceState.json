@@ -7,8 +7,10 @@
     "\\Assets\\Bootstrap\\Js",
     "\\Assets\\Css",
     "\\Assets\\Fonts",
-    "\\Assets\\Images"
+    "\\Assets\\Images",
+    "\\Assets\\Images\\productImg",
+    "\\Assets\\Script"
   ],
-  "SelectedNode": "\\Assets\\Bootstrap",
+  "SelectedNode": "\\Assets\\Images\\LocalbazzarLogo.jpeg",
   "PreviewInSolutionExplorer": false
 }
